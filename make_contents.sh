@@ -2,7 +2,7 @@
 
 BASEDIR=$(cd "$(dirname "$0")" && pwd)
 
-cat shellgei160/qdata/contents.md \
+cat $BASEDIR/shellgei160/qdata/contents.md \
 | sed '/^ *$/d' \
 | sed '/.tex$/d' \
 | sed 's/ 出題.*//' \
