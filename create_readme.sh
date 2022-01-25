@@ -2,6 +2,9 @@
 
 BASEDIR=$(cd "$(dirname "$0")" && pwd)
 
+echo '# シェル・ワンライナー 160 本ノック'
+echo
+
 cat $BASEDIR/shellgei160/qdata/contents.md \
 | sed '/^ *$/d' \
 | sed '/.tex$/d' \
