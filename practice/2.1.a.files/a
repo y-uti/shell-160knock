@@ -1,0 +1,39 @@
+使用法: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 パターン空間の自動出力を抑制する
+  -e script, --expression=script
+                 実行するコマンドとして script を追加する
+  -f script-file, --file=script-file
+                 実行するコマンドとして script-file の中身を追加する
+  --follow-symlinks
+                 処理の際にその場でシンボリックリンクを辿る
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 `l' コマンドの行折り返しの長さを指定する
+  --posix
+                 全ての GNU 拡張を無効にする
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode.
+  -u, --unbuffered
+                 入力ファイルからデータをごく少量ずつ取り込み、頻繁に出力
+                 バッファに出力 (flush) する
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     このヘルプを表示して終了する
+      --version  バージョン情報を表示して終了する
+
+-e、--expression、-f または --file オプションのいずれも与えられない場合、
+最初のオプションでない引数が解釈する sed スクリプトとして扱われます。
+全ての残りの引数は入力ファイル名として扱われます。入力ファイルが指定さ
+れていない場合は、標準入力から読み込みます。
+
+GNU sed ホームページ: <http://www.gnu.org/software/sed/>.
+GNU ソフトウェアを使用する際の一般的なヘルプ: <http://www.gnu.org/gethelp/>.
