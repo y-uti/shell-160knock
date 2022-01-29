@@ -31,11 +31,10 @@ EOF
 files=(
   $(grep '\[ \]' $BASEDIR/README.md \
   | tr : ' ' \
-  | awk -F' ' '{ \
-      sub("練習","practice",$4);
-      sub("問題","problem",$4);
-      printf("%s/%s.md\n", $4, $5);
-    }')
+  | awk -F' ' '
+      $4 == "練習" { printf("practice/%s.md\n", $5) }
+      $4 == "問題" { printf("problem/%03d.md\n", $5) }
+    ')
 )
 
 for f in ${files[*]}; do
@@ -43,6 +42,7 @@ for f in ${files[*]}; do
     kind=${f%/*}
     number=${f#*/}
     number=${number%.md}
+    number=$(echo $number | sed 's/^0*//')
     break
   fi
 done    
@@ -56,4 +56,4 @@ case "$kind" in
     ;;
 esac >$f
 
-echo "Created $kind/$number.md"
+echo "Created $kind/$(basename $f)"
