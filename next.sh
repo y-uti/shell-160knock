@@ -7,7 +7,7 @@ function new_practice() {
   cat <<EOF
 # $number
 
-実行結果
+## 実行結果
 
 \`\`\`
 \`\`\`
