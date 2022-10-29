@@ -2,10 +2,12 @@
 
 BASEDIR=$(cd "$(dirname "$0")" && pwd)
 
+shellgei_dir=${1:-$BASEDIR/shellgei160}
+
 echo '# シェル・ワンライナー 160 本ノック'
 echo
 
-cat $BASEDIR/shellgei160/qdata/contents.md \
+cat $shellgei_dir/qdata/contents.md \
 | sed '/^ *$/d' \
 | sed '/.tex$/d' \
 | sed 's/ 出題.*//' \
