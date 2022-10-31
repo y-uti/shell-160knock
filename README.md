@@ -172,8 +172,8 @@
 
 - [x] [練習 5.1.a: n進数](practice/5.1.a.md)
 - [x] [練習 5.1.b: ASCIIコード](practice/5.1.b.md)
-- [ ] 練習 5.1.c: UnicodeとUTF-8
-- [ ] 練習 5.1.d: 文字コードと改行記号の変換
+- [x] [練習 5.1.c: UnicodeとUTF-8](practice/5.1.c.md)
+- [x] [練習 5.1.d: 文字コードと改行記号の変換](practice/5.1.d.md)
 - [ ] 問題 70: Excel方眼紙
 - [ ] 問題 71: 文字のバイト数の調査
 - [ ] 問題 72: 絵文字
