@@ -7,6 +7,9 @@ shellgei_dir=${1:-$BASEDIR/shellgei160}
 echo '# シェル・ワンライナー 160 本ノック'
 echo
 
+cat $BASEDIR/header.md
+echo
+
 cat $shellgei_dir/qdata/contents.md \
 | sed '/^ *$/d' \
 | sed '/.tex$/d' \
