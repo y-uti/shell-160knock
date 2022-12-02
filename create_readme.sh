@@ -11,6 +11,7 @@ cat $BASEDIR/header.md
 echo
 
 cat $shellgei_dir/qdata/contents.md \
+| sed '/^%.*$/d' \
 | sed '/^ *$/d' \
 | sed '/.tex$/d' \
 | sed 's/ 出題.*//' \
