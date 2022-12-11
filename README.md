@@ -290,8 +290,8 @@ https://github.com/shellgei/shellgei160
 
 - [x] [問題 134: Pythonのインデントの確認](problem/134.md)
 - [x] [問題 135: Lisp の括弧の整合性の確認](problem/135.md)
-- [ ] 問題 136: 関数の位置の入れ替え
-- [ ] 問題 137: コードの整形
+- [x] [問題 136: 関数の位置の入れ替え](problem/136.md)
+- [x] [問題 137: コードの整形](problem/137.md)
 
 ### 8.2 データを生成する
 
