@@ -328,7 +328,7 @@ https://github.com/shellgei/shellgei160
 
 - [x] [練習 9.2.a: 名前解決](practice/9.2.a.md)
 - [x] [練習 9.2.b: HTTPステータスコード](practice/9.2.b.md)
-- [ ] 問題 152: ネットワーク監視
+- [x] [問題 152: ネットワーク監視](problem/152.md)
 - [ ] 問題 153: telnetコマンドでHTTP通信
 - [ ] 問題 154: /etc/hostsの使用調査
 - [ ] 問題 155: 不正なContent-Length
