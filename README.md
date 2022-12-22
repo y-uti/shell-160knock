@@ -326,8 +326,8 @@ https://github.com/shellgei/shellgei160
 
 ### 9.2 通信関係の調査や操作を行う
 
-- [ ] 練習 9.2.a: 名前解決
-- [ ] 練習 9.2.b: HTTPステータスコード
+- [x] [練習 9.2.a: 名前解決](practice/9.2.a.md)
+- [x] [練習 9.2.b: HTTPステータスコード](practice/9.2.b.md)
 - [ ] 問題 152: ネットワーク監視
 - [ ] 問題 153: telnetコマンドでHTTP通信
 - [ ] 問題 154: /etc/hostsの使用調査
