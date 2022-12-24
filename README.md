@@ -331,9 +331,9 @@ https://github.com/shellgei/shellgei160
 - [x] [問題 152: ネットワーク監視](problem/152.md)
 - [x] [問題 153: telnetコマンドでHTTP通信](problem/153.md)
 - [x] [問題 154: /etc/hostsの使用調査](problem/154.md)
-- [ ] 問題 155: 不正なContent-Length
-- [ ] 問題 156: 複数IPアドレスが登録されているドメイン
-- [ ] 問題 157: pingのパケット解析
+- [x] [問題 155: 不正なContent-Length](problem/155.md)
+- [x] [問題 156: 複数IPアドレスが登録されているドメイン](problem/156.md)
+- [x] [問題 157: pingのパケット解析](problem/157.md)
 - [ ] 問題 158: パケットを使ったOSの推定
 - [ ] 問題 159: 複数のドメインのチェック
 - [ ] 問題 160: SSL 証明書の調査
