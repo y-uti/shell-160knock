@@ -334,6 +334,6 @@ https://github.com/shellgei/shellgei160
 - [x] [問題 155: 不正なContent-Length](problem/155.md)
 - [x] [問題 156: 複数IPアドレスが登録されているドメイン](problem/156.md)
 - [x] [問題 157: pingのパケット解析](problem/157.md)
-- [ ] 問題 158: パケットを使ったOSの推定
-- [ ] 問題 159: 複数のドメインのチェック
+- [x] [問題 158: パケットを使ったOSの推定](problem/158.md)
+- [x] [問題 159: 複数のドメインのチェック](problem/159.md)
 - [ ] 問題 160: SSL 証明書の調査
