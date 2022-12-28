@@ -336,4 +336,4 @@ https://github.com/shellgei/shellgei160
 - [x] [問題 157: pingのパケット解析](problem/157.md)
 - [x] [問題 158: パケットを使ったOSの推定](problem/158.md)
 - [x] [問題 159: 複数のドメインのチェック](problem/159.md)
-- [ ] 問題 160: SSL 証明書の調査
+- [x] [問題 160: SSL 証明書の調査](problem/160.md)
